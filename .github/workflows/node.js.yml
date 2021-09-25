@@ -12,7 +12,7 @@ jobs:
       - name: nmp install and build webpack
         run: |
           nmp install
-          nmp build
+          nmp run build
   test:
 
     runs-on: ubuntu-latest
